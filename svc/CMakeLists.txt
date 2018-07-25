@@ -3,4 +3,4 @@ project(srv)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(srv main.cpp unp.h unp.cpp)
+add_executable(srv main.cpp unp.h unp.cpp Thread.h)
